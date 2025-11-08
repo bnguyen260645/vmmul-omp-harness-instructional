@@ -62,7 +62,7 @@ int main(int argc, char** argv)
     std::vector<int> test_sizes{1024, 1024, 2048, 4096, 8192, 16384};
 
     int n_problems = test_sizes.size();
-
+  
     // preallocate memory buffers for all problems: assume the last number in test_sizes is the largest
 
     // allocate memory for 2 NxN matrices and 4 Nx1 vectors
@@ -93,11 +93,15 @@ int main(int argc, char** argv)
         memcpy((void *)Ycopy, (const void *)Y, sizeof(double)*n);
 
         // insert start timer code here
-
+        std::chrono::time_point<std::chrono::high_resolution_clock> start_time = std::chrono::high_resolution_clock::now();
+        
         // call the method to do the work
         my_dgemv(n, A, X, Y); 
 
         // insert end timer code here, and print out the elapsed time for this problem size
+        std::chrono::time_point<std::chrono::high_resolution_clock> end_time = std::chrono::high_resolution_clock::now();
+        long long elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end_time - start_time).count();
+        std::cout << " Elapsed time is : " << (elapsed / 1000000000.0) << " seconds" << std::endl;
 
 
         // now invoke the cblas method to compute the matrix-vector multiplye

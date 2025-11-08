@@ -1,0 +1,7 @@
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/benchmark.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/benchmark-basic.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/benchmark-vectorized.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/benchmark-blas.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/benchmark-openmp.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/BNguyen260/Desktop/CSC/CSC656/code/vmmul-omp-harness-instructional/cmake-build-debug/CMakeFiles/rebuild_cache.dir
