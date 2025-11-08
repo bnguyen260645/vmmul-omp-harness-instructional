@@ -1,0 +1,7 @@
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/rebuild_cache.dir
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/benchmark-openmp.dir
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/benchmark-blas.dir
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/edit_cache.dir
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/benchmark-vectorized.dir
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/benchmark-basic.dir
+/global/homes/b/bnguyen0/code/vmmul-omp-harness-instructional/buildnersc/CMakeFiles/benchmark.dir
