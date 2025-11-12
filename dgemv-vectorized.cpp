@@ -11,6 +11,7 @@ void my_dgemv(int n, double* A, double* x, double* y) {
    for(int row = 0; row < n; row++)
    {
       double sum = 0.0;
+      y[row] = 0.0;
       int nRow = row * n;
       for(int col = 0; col < n; col++)
       {
