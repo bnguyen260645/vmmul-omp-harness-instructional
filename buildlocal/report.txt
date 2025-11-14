@@ -1,8 +1,6 @@
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:1: note: ***** Analysis failed with vector mode VOID
 /mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:11:25: missed: couldn't vectorize loop
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:16:31: missed: not vectorized: complicated access pattern.
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:28: missed: couldn't vectorize loop
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:16:17: missed: not vectorized: complicated access pattern.
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 0 loops in function.
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:19:1: note: ***** Analysis failed with vector mode V2DF
-/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:19:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DF
+/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:20: missed: not vectorized: complicated access pattern.
+/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:28: optimized: loop vectorized using 16 byte vectors
+/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:1: note: ***** Analysis failed with vector mode V2DF
+/mnt/Downloads/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DF
